@@ -1,0 +1,112 @@
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: #333;
+  overflow: auto;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+  
+.main-header {
+  position: sticky; 
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px; 
+  background-color: white; 
+  z-index: 1000; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.content-area {
+  padding-top: 60px;
+  overflow-y: auto;
+  height: calc(100vh - 60px); 
+}
+
+
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+.toggle-btn {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+}
+
+.toggle-btn:focus,
+.toggle-btn:hover {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+  
+  .search-input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 250px;
+  }
+  
+  .icon-button {
+    font-size: 1.4rem;
+    color: #140691;
+    cursor: pointer;
+  }
+  
+  .user-icon {
+    font-size: 1.6rem;
+  }
+  .toggle-btn {
+    font-size: 1.5rem;
+    border: none;
+    color: #140691;
+    cursor: pointer;
+  }
+  .search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    color: #888;
+    font-size: 1,2rem;
+    /* pointer-events: none; */
+  }
+  
+  .search-input {
+    padding: 0.5rem 1rem 0.5rem 2.5rem; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 250px;
+  }
+  /* .content-area{
+    padding-left: 10px;
+  } */
+    

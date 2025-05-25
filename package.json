@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "apexcharts": "^4.7.0",
+    "react-apexcharts": "^1.7.0",
+    "react-calendar": "^5.1.0",
+    "react-router-dom": "^7.6.0"
+  }
+}
