@@ -10,5 +10,5 @@ export default defineConfig({
   server: {
     open: true,
   },
-  base: './', // Add this if you're deploying to sub-paths
+  base: './', 
 })
